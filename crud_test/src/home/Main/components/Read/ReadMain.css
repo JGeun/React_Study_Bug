@@ -1,0 +1,24 @@
+.readBody{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.readBody ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.readBody li{
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.wordBody{
+  position: relative;
+  height: 100%;
+  margin: 50px 120px 50px 70px;
+  padding-left: 20px;
+  text-decoration: none;
+}

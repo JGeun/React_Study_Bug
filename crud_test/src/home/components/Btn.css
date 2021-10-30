@@ -1,0 +1,36 @@
+.homeMenuBtn{
+    display: flex;
+    position: relative;
+    width: inherit;
+    height: 60px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeMenuBtnSelected{
+    display: flex;
+    position: relative;
+    width: inherit;
+    height: 60px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+}
+
+.homeMenuBtn:first-child{
+    margin-top: 0;
+}
+
+.homeMenuBtnSelected:first-child{
+    margin-top: 0;
+}
+
+.homeMenuBtnIcon{
+    position: relative;
+    width: inherit;
+    background-color: khaki;
+    transform: scale(1.8);
+    margin: auto auto;
+}
