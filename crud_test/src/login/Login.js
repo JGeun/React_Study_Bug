@@ -3,6 +3,7 @@ import './Login.css';
 
 class Login extends Component {
   render(){
+    console.log("Login Render");
     return(
       <div className="loginBody">
         <div className="loginTitleArea">
@@ -18,10 +19,12 @@ class Login extends Component {
             <div>
               <input type="text" placeholder="Password"></input>
             </div>
-            <button type="submit">Sign In</button>
+            <button type="submit" onClick={function(){
+              this.props.onChangeMode();
+            }.bind(this)}>Sign In</button>
           </form>
         </div>
-        <div class="SignUpArea">
+        <div className="SignUpArea">
           <div>
             <a href="/">Sign Up</a>
             <a href="/">Find Pw</a>

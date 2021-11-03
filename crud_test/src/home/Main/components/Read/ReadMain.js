@@ -7,6 +7,7 @@ class ReadMain extends Component{
   shouldComponentUpdate(newProps, newState){
     const dataProps = this.state.data !== newProps.data;
     const modeProps = newProps.data === "Read";
+    console.log(newState.mode)
     return dataProps || modeProps;
   }
   constructor(props){
