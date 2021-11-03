@@ -10,6 +10,7 @@ class ReadMain extends Component{
     console.log(newState.mode)
     return dataProps || modeProps;
   }
+
   constructor(props){
     super(props);
     this.state = {
@@ -17,8 +18,10 @@ class ReadMain extends Component{
       mode: this.props.mode,
     };
   }
+
   render(){
     console.log("ReadMain render");
+    console.log("ReadMain", this.state.data);
     var lists = [];
     var i = 0;
     var data = this.state.data;
